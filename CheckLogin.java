@@ -4,7 +4,7 @@ public class CheckLogin {
      System.out.println(" enter the user name: ");
      Scanner sc= new Scanner(System.in);
      String usernamein=sc.nextLine();
-     // System.out.println(" enter the  password: ");
+     System.out.println(" enter the  password: ");
      Scanner ps= new Scanner(System.in);
      String passin=ps.nextLine();
 
