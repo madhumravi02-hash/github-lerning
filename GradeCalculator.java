@@ -8,7 +8,7 @@ public class GradeCalculator {
             System.out.println(" YOUR GRADE IS: 'A' ");
         }
          else if(marks> 75){
-            System.out.println(" YOUR GRADE IS: 'b' ");
+            System.out.println(" YOUR GRADE IS: 'B' ");
         }
          else if(marks> 60){
             System.out.println(" YOUR GRADE IS: 'C' ");
