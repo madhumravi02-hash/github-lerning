@@ -1,14 +1,18 @@
 import java.util.*;
 public class Count {
     public static void main(String[]args){
-          Scanner sc=new Scanner(System.in);
-          int count=0;
-          for (int i=0;i<10; i++) {
-            System.out.println(" enter the numbers: ");
-            int a=sc.nextInt();
-            count++;
-          }
-          System.out.println(count);
+      System.out.println(" enter the numbers: ");
+      int count=0;
+          int i=0;
+        
+      while (i<100) {
+        i++;
+      System.out.println(i);
+      int sum= i + count;
+       System.out.println(sum);
+      
+      }
+      
     }
     
 }
