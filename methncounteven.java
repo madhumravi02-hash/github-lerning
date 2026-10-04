@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+
+
+public class methncounteven {
+    static void even() {
+
+    System.out.println("enter the 'N' number:");
+    Scanner sc=new Scanner(System.in);
+    int num=sc.nextInt();
+    int count=0;
+    for( int i=1; i<=num; i++ ) { 
+        if(i % 2 ==0){
+            
+        System.out.println(i);
+    
+        count++;}
+    } System.out.println(" count =" + count);
+    
+    return ; }
+    public static void main(String[] args) {
+    even();
+    } 
+}
